@@ -1,0 +1,21 @@
+HMSET book:1 name "asdf vac" category_id 2 publisher_id 3 author_id 4
+ZADD category:2 1 book:1
+ZADD publisher:3 1 book:1
+ZADD author:1 4 book:1
+ZADD book:asdf_adsf:1
+
+HMSET book:2 name "asdf vac" category_id 2 publisher_id 5 author_id 4
+ZADD category:2 2 book:2
+ZADD publisher:5 2 book:2
+ZADD author:4 2 book:2
+
+//search
+input ten tg
+for i->100 if tg = arr[i].ten -> get ID of author
+
+ZRANGE author:id 0 -1   ---->  list of books belong to author
+
+for i in books ->  HGETALL book:id  ->
+
+[[48] [[97 104 111 116 32 104 101 121 120 32 97] [98 111 111 107 58 49] [97 104 111 116 32 104 101 121 120 32 97 50] [98 111 111 107 58 50]]]
+
