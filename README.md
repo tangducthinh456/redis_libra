@@ -1,10 +1,5 @@
-# Tutorial how to use
-Change file input.txt as:
+# Decription
 
-Fisrt file: filter object ( ex: author, category, publisher, name)
+A coursework of Database Manage System to compare a traditional DBMS with a NoSQL DBMS, here we choose MySQL with Redis.
 
-Second line : value of filter (ex: Sir Conan Arthur Doyle ...)
-
-Set up go environment
-
-Then in cmd, run "go build" and "go run hello.go"
+More detail can be found in folder document.
